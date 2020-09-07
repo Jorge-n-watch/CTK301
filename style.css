@@ -1,0 +1,54 @@
+/*new style sheet baby*/
+/*
+p {
+ color: #ff0000;
+ background-color: #003366
+}
+*/
+h1 {
+  background-color: #0080b3
+}
+
+#specialid {
+  color: #00ff80
+}
+
+.specialp {
+  color: #80ff00;
+  background-color: #354657
+}
+
+a {
+  color: #ff0000;
+}
+a:link {
+ color: #00ff00;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #ff00ff;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #ff8010;
+ text-decoration: underline;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #ff0000
+}
+
+#divexample {
+  color:#1010ff;
+  background-color: #ffff59;
+}
+
+.spanstyle {
+  color: #00ff00
+}
