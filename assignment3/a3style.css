@@ -1,0 +1,53 @@
+
+
+p{
+ background-color: #ffffff;
+ color: #a8323a;
+}
+
+h3 {
+  background-color: #a8323a;
+  color: #ffffff;
+}
+
+ul {
+  background-color: #ffffff;
+  color: #a8323a;
+}
+
+h1 {
+  background-color: #a8323a;
+  color: #ffffff;
+}
+
+h2 {
+  background-color: #a8323a;
+  color: #ffffff;
+}
+
+a:link {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #00cf8d;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #ebc334;
+ text-decoration: underline;
+}
+
+.spanstyle {
+color: #000000
+}
+
+#dive {
+  color: #ffffff;
+  background-color: #a8323a;
+}
