@@ -1,0 +1,79 @@
+p{
+ background-color: #ffffff;
+ color: #a8323a;
+}
+
+h3 {
+  background-color: #a8323a;
+  color: #ffffff;
+}
+
+ul {
+  background-color: #ffffff;
+  color: #a8323a;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: normal;
+  color: #ff5100;
+}
+
+h2 {
+  background-color: #a8323a;
+  color: #ffffff;
+}
+
+a:link {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #00cf8d;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #ebc334;
+ text-decoration: underline;
+}
+
+.spanstyle {
+color: #000000
+}
+
+#dive {
+  color: #ffffff;
+  background-color: #a8323a;
+}
+
+p {
+font-family: Helvetica, sans-serif;
+
+}
+
+.ctext {
+text-align: center;
+}
+
+.jtext {
+text-align: justify;
+}
+
+.ibox {
+border: 6px solid #000000;
+padding: 10px;
+margin: 20px;
+background-color: #ffffff;
+}
+
+body {
+background-color: #000000;
+background-image: url(redb.jpg);
+background-repeat: repeat;
+background-position: top left;
+}
