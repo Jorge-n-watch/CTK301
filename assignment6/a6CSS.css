@@ -1,0 +1,112 @@
+body {
+background-color: #000000;
+background-image: url(a62.png);
+background-repeat: repeat;
+background-position: top left;
+font-family: helvetica;
+}
+
+h1 {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 10px;
+  font-weight:normal;
+  grid-column: span 12;
+
+}
+
+h2 {
+  text-decoration: underline;
+
+}
+
+p {
+  font-family: Georgia;
+  text-align: justify;
+  font-weight: bold;
+  padding: 10px
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  display: grid;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  padding: 10px;
+  ;margin: 10px;
+  background-color: #ff3300;
+  display: inline-block;
+  width: 150px;
+
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: left;
+}
+
+nav ul :hover {
+  background-color:#cc0000;
+}
+
+
+
+nav {
+  grid-column: span 3;
+
+}
+
+main {
+  grid-column: span 9;
+
+}
+
+footer {
+  grid-column: span 12;
+  text-align:center;
+  border: solid 2px black;
+  background-color: #ff3300;
+  color: #ffffff;
+  font-family: Verdana;
+  font-style: italic;
+}
+
+
+.floatimage {
+  margin: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  float:left;
+  border:3px solid #000000;
+  border-spacing: 15px;
+}
+
+.sstyle {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.slink {
+  color: #ff0000;
+  font-weight: bolder;
+}
+
+.slink:hover {
+  color: blue;
+  text-decoration: underline;
+}
