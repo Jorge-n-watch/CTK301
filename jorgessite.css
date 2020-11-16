@@ -27,7 +27,7 @@ header {
   border-style: solid;
   border-color: red;
   border-width: 5px;
-  grid-column span: 3;
+  grid-column: span 3;
 
 }
 
@@ -80,7 +80,7 @@ a :hover {
 
 
 nav {
-  grid-column span: 9;
+  grid-column: span 9;
 
 }
 
@@ -91,7 +91,7 @@ main {
   font-size: 24px;
   padding: 24px;
   font-family: helvetica, arial,sans-serif;
-  grid-column span: 12;
+  grid-column span 12;
 }
 
 
@@ -100,12 +100,10 @@ footer {
   font-family: helvetica, arial,sans-serif;
   font-size: 24px;
   padding: 24px;
-  grid-column span: 12;
+  grid-column: span 12;
 }
 
-.banner {
-  padding: 150px;
-    grid-column span: 12;
+
 
 }
 
