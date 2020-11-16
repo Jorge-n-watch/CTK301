@@ -10,7 +10,7 @@ body {
   background-color: #ffffff;
   background-image: url(city.png);
   display: grid;
-  grid-template-columns: 12;
+  grid-template-columns: repeat(12, 1fr);
 
 
 }
@@ -27,7 +27,7 @@ header {
   border-style: solid;
   border-color: red;
   border-width: 5px;
-  column-span: 3;
+  grid-column span: 3;
 
 }
 
@@ -80,7 +80,7 @@ a :hover {
 
 
 nav {
-column-span: 9;
+  grid-column span: 9;
 
 }
 
@@ -91,7 +91,7 @@ main {
   font-size: 24px;
   padding: 24px;
   font-family: helvetica, arial,sans-serif;
-  column-span: 12;
+  grid-column span: 12;
 }
 
 
@@ -100,12 +100,12 @@ footer {
   font-family: helvetica, arial,sans-serif;
   font-size: 24px;
   padding: 24px;
-  column-span: 12;
+  grid-column span: 12;
 }
 
 .banner {
   padding: 150px;
-  column-span: 12;
+    grid-column span: 12;
 
 }
 
