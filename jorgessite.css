@@ -54,7 +54,7 @@ nav li {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   font-size: 25px;
-
+  transition: background-color .5s, color .5s;
 
 }
 
@@ -85,13 +85,14 @@ nav {
 }
 
 main {
-
+  margin-top: 500px;
   color: white;
   background-color: black;
   font-size: 24px;
   padding: 24px;
   font-family: helvetica, arial,sans-serif;
-  grid-column span 12;
+  grid-column: span 12;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -101,6 +102,7 @@ footer {
   font-size: 24px;
   padding: 24px;
   grid-column: span 12;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -126,4 +128,12 @@ h2 {
 .web {
   width: 700px;
   margin-top: 50px;
+}
+
+.frame {
+  grid-column: span 6;
+}
+
+.para {
+  grid-column: span 6;
 }
