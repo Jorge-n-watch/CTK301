@@ -1,0 +1,161 @@
+body {
+  background-color: #999999;
+
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 24px;
+  background-color: #ffffff;
+  background-image: url(city.png);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+
+}
+
+header {
+
+  color: #ffffff;
+  background-color: black;
+  font-family: helvetica, arial,sans-serif;
+  padding: 24px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  width: 130px;
+  height: 150px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  grid-column: span 3;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 30;
+  padding: 30;
+  text-align: right;
+
+
+}
+
+
+
+nav li {
+  float: none;
+  padding: 30px;
+  margin: 30px;
+  background-color: #F2E100;
+  display: inline-block;
+  width: 90px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 25px;
+  transition: background-color .5s, color .5s;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  font-family: helvetica;
+
+}
+
+nav ul :hover {
+  background-color: #F2B900;
+  color: white;
+}
+
+a :hover {
+  background-color: #F2B900;
+  color: white;
+
+}
+
+
+
+nav {
+  grid-column: span 9;
+
+}
+
+main {
+  margin-top: 500px;
+  color: white;
+  background-color: black;
+  font-size: 24px;
+  padding: 24px;
+  font-family: helvetica, arial,sans-serif;
+  grid-column: span 12;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+footer {
+  background-color: white;
+  font-family: helvetica, arial,sans-serif;
+  font-size: 24px;
+  padding: 24px;
+  grid-column: span 12;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+}
+
+
+
+}
+
+.prof {
+  height: 800px;
+  width: auto;
+  float: left;
+  margin-top: 26px;
+}
+
+
+
+h2 {
+  color: #F2B900;
+  font-size: 50px;
+  font-family: helvetica, arial,sans-serif;
+  background-color: white;
+}
+
+.web {
+  width: 700px;
+  margin-top: 50px;
+}
+
+.slider1 {
+  grid-column: span 6;
+
+
+}
+
+.para {
+  grid-column: span 6;
+  color:#ff8000;
+  background-color: white;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 20px;
+}
+
+.para2 {
+  grid-column: span 6;
+  color:#ff8000;
+  background-color: white;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 20px;
+  margin-left: 20px;
+  height: 359px;
+}
+
+.img1 {
+  margin-left: 50px;
+}
