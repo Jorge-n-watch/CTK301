@@ -22,10 +22,11 @@ header {
   font-family: helvetica, arial,sans-serif;
   padding: 24px;
   margin-right: 50px;
+  margin-bottom: 20px;
   width: 130px;
   height: 150px;
   border-style: solid;
-  border-color: red;
+  border-color: white;
   border-width: 5px;
   grid-column: span 3;
 
@@ -36,9 +37,7 @@ nav ul {
   margin: 30;
   padding: 30;
   text-align: right;
-  border-style: solid;
-  border-color: red;
-  border-width: 5px;
+
 
 }
 
@@ -103,6 +102,7 @@ footer {
   padding: 24px;
   grid-column: span 12;
   font-family: 'Josefin Sans', sans-serif;
+  color: black;
 }
 
 
@@ -130,10 +130,32 @@ h2 {
   margin-top: 50px;
 }
 
-.frame {
+.slider1 {
   grid-column: span 6;
+
+
 }
 
 .para {
   grid-column: span 6;
+  color:#ff8000;
+  background-color: white;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 20px;
+}
+
+.para2 {
+  grid-column: span 6;
+  color:#ff8000;
+  background-color: white;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 20px;
+  margin-left: 20px;
+  height: 359px;
+}
+
+.img1 {
+  margin-left: 50px;
 }
